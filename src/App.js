@@ -7,7 +7,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/countries-catalog'>
         <Routes>
           <Route path='/' element={<Home/>} />
         </Routes>
